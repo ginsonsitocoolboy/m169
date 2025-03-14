@@ -69,10 +69,9 @@ Warum wichtig?: Erlaubt das Betreiben großer, verteilter Anwendungen ohne manue
 Das Repository wurde aktualisiert.
 
 ## Aufgabe 3
-| Aspekt | IaaS | PaaS |
-| --------- | ---- | ---- |
-| Verwaltung der Infrastruktur | Benutzer                       |Cloud-Anbieter                        |
-| Betriebssystempflege         | Benutzer                       | Cloud-Anbieter                        |
-| Skalierung & Ressourcen      | Manuell durch Benutzer         | Automatisiert durch Cloud-Anbieter    |
-| Hauptnutzer                  | Systemadministratoren, DevOps  | Entwickler, Software-Teams            |
-| Beispiel                     | AWS EC2, Google Compute Engine | Google App Engine, Azure App Services |
+| Cloud-Anbieter |Regionen | Verfügbarkeitszonen |
+|---|----|-----|
+| AWS |36 | 114 |
+| Azure  | 64 |1-3 pro Region|
+| GCP |41  |124|
+ 
