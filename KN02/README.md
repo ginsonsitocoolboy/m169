@@ -9,6 +9,11 @@ PaaS (Platform as a Service)
 
 PaaS bietet eine Entwicklungsplattform mit Laufzeitumgebungen und Datenbanken. Nutzer konzentrieren sich auf die Anwendungsentwicklung, ohne die Infrastruktur zu verwalten.
 
+SaaS: Fertige Programme, die du direkt im Internet nutzen kannst 
+
+
+CaaS: Ein Service, der hilft, Apps in Containern (wie kleine Software-Pakete) zu verwalten und laufen zu lassen.
+
 ## Aufgabe 2
 Automatische vs. Manuelle Konfiguration von IT-Systemen
 
