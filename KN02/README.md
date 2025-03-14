@@ -10,35 +10,56 @@ PaaS (Platform as a Service)
 PaaS bietet eine Entwicklungsplattform mit Laufzeitumgebungen und Datenbanken. Nutzer konzentrieren sich auf die Anwendungsentwicklung, ohne die Infrastruktur zu verwalten.
 
 ## Aufgabe 2
-Automatisierung vs. Manuelle Konfiguration
+Automatische vs. Manuelle Konfiguration von IT-Systemen
 
-Vorteile der Automatisierung
+Warum ist es besser, IT-Systeme automatisch zu konfigurieren?
 
-Automatisierung sorgt für mehr Konsistenz und reduziert menschliche Fehler. IT-Systeme können schneller bereitgestellt und einfacher skaliert werden. Wiederholbare Prozesse und Versionskontrolle erleichtern die Nachverfolgbarkeit von Änderungen.
+Zeitersparnis: Automatische Konfiguration geht schneller als manuelle Einrichtung.
 
-Infrastructure as Code (IaC)
+Weniger Fehler: Menschen machen Fehler, Skripte arbeiten präzise.
 
-Mit IaC wird IT-Infrastruktur per Code beschrieben und verwaltet. Dadurch sind Deployments automatisierbar, wiederholbar und versionierbar. Änderungen können nachvollzogen und leicht zurückgesetzt werden.
+Skalierbarkeit: Automatische Systeme lassen sich leichter erweitern.
 
-Zwei IaC-Tools
+Wiederholbarkeit: Einmal erstellte Konfigurationen können immer wieder verwendet werden.
+
+Bessere Nachvollziehbarkeit: Automatische Prozesse sind dokumentiert und überprüfbar.
+
+Was bedeutet Infrastructure as Code (IaC)?
+
+IT-Infrastruktur wird in Code beschrieben, anstatt manuell eingerichtet.
+
+Ermöglicht schnelle, wiederholbare und konsistente Bereitstellung.
+
+Beispiele: Terraform, Ansible, Puppet.
+
+Zwei IaC-Tools und ihre Funktionen
 
 Terraform
 
-Terraform ist ein Open-Source-Tool zur Verwaltung von Infrastruktur mit deklarativem Code. Es unterstützt verschiedene Cloud-Anbieter und ermöglicht eine einfache Bereitstellung von Ressourcen.
+Automatisiert das Erstellen und Verwalten von Infrastruktur.
+
+Funktioniert für Cloud-Plattformen wie AWS, Azure und Google Cloud.
+
+Konfigurationen werden als Code gespeichert.
 
 Docker
 
-Docker ist eine Plattform zur Containerisierung von Anwendungen. Anwendungen laufen in isolierten Containern, die portabel, skalierbar und effizient verwaltbar sind.
+Verpackt Anwendungen mit allen Abhängigkeiten in Container.
+
+Erleichtert das Bereitstellen und Verschieben von Software.
+
+Funktioniert überall gleich (egal, ob lokal oder in der Cloud).
 
 Kubernetes & Container-Orchestrierung
 
-Kubernetes
+Kubernetes: Ein System zur Verwaltung vieler Container.
 
-Kubernetes ist eine Open-Source-Plattform zur Automatisierung der Verwaltung containerisierter Anwendungen. Es erleichtert die Bereitstellung, Skalierung und Wartung von Containern in einem Cluster.
+Container-Orchestrierung: Automatisiert das Starten, Stoppen und Verwalten von Containern.
 
-Container-Orchestrierung
+Ziele: Skalierung, Ausfallsicherheit, einfache Verwaltung.
 
-Container-Orchestrierung steuert und verwaltet Container über mehrere Hosts hinweg. Sie sorgt für automatische Skalierung, Lastverteilung und Selbstheilung der Anwendungen.
+Warum wichtig?: Erlaubt das Betreiben großer, verteilter Anwendungen ohne manuelle Eingriffe.
+
 
 Das Repository wurde aktualisiert.
 
